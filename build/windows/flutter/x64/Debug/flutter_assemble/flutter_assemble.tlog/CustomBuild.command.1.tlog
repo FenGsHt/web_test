@@ -1,0 +1,28 @@
+^D:\GIT2\FLUTTERPROJECT\WEB_TEST\WEB_TEST\BUILD\WINDOWS\CMAKEFILES\5ADE4827599B03804850EC5DB90F996C\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+D:\Tools\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E env FLUTTER_ROOT=D:\Tools\flutter\flutter PROJECT_DIR=D:\git2\FlutterProject\web_test\web_test FLUTTER_ROOT=D:\Tools\flutter\flutter FLUTTER_EPHEMERAL_DIR=D:\git2\FlutterProject\web_test\web_test\windows\flutter\ephemeral PROJECT_DIR=D:\git2\FlutterProject\web_test\web_test FLUTTER_TARGET=D:\git2\FlutterProject\web_test\web_test\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\git2\FlutterProject\web_test\web_test\.dart_tool\package_config.json D:/Tools/flutter/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT2\FLUTTERPROJECT\WEB_TEST\WEB_TEST\BUILD\WINDOWS\CMAKEFILES\99A6794145B92F0646D3799461FF657F\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GIT2\FLUTTERPROJECT\WEB_TEST\WEB_TEST\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+D:\Tools\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SD:/git2/FlutterProject/web_test/web_test/windows -BD:/git2/FlutterProject/web_test/web_test/build/windows --check-stamp-file D:/git2/FlutterProject/web_test/web_test/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
