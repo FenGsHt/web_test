@@ -20,7 +20,7 @@ jobs:
           cd build/web
           git init
           git config --global user.email 478901704@qq.com
-          git config --global user.name fengsht
+          git config --global user.name FenGsHt
           git status
           git remote add origin https://${{secrets.commit_secret}}@github.com/FenGsHt/web_test.git
           git checkout -b gh-pages
