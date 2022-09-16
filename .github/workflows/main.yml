@@ -16,6 +16,8 @@ jobs:
           channel: 'dev'
       - run: flutter doctor
       - run: flutter pub get
+        with:
+          sdk-version:'2.16.2'
       - run: flutter build web --release
       - run: |
           cd build/web
